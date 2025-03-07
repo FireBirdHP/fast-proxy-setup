@@ -53,4 +53,3 @@ echo "Запуск"
             break
             ;;
     esac
-done
