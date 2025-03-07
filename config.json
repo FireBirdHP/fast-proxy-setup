@@ -1,0 +1,17 @@
+{
+    "listen": "0.0.0.0:25565",
+    "description": "§e§lProxy\n§c§lBy FireBirdHP",
+    "remote": "mc.mineblaze.net:25565",
+    "max_player": 1337,
+    "ping_mode": "fake",
+    "fake_ping": 42,
+    "rewrite_host": "mc.mineblaze.net",
+    "rewrite_port": 25565,
+    "auth": "none",
+    "whitelist": [
+        "FireBirdHP"
+    ],
+    "blacklist": [
+
+    ]
+}
