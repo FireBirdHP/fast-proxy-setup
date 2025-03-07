@@ -21,7 +21,6 @@ echo "Script By FireBirdHP"
 echo "Script By FireBirdHP"
 echo " "
 echo " "
-while true; do
     # Выводим меню
     echo "1. Установить"
     echo "2. Выход"
