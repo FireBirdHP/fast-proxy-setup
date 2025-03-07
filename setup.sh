@@ -33,11 +33,18 @@ echo " "
         1)
 echo "Создание папки"
 mkdir proxy
+echo "Смена директории"
+cd proxy
 echo "Скачивание файлов"
 wget https://raw.githubusercontent.com/FireBirdHP/fast-proxy-setup/refs/heads/main/config.json
 wget https://github.com/FireBirdHP/fast-proxy-setup/raw/refs/heads/main/mcproxy
 echo "Применение атрибута"
 chmod +x mcproxy
+echo " "
+echo " "
+echo "Зайти можно пол окальному IP: 127.0.0.1"
+echo " "
+echo " "
 echo "Запуск"
 ./mcproxy
             ;;
